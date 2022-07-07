@@ -21,7 +21,7 @@ for link in anchors:
     if(link.get('href') != '#'):
         linkText = "https://codewithharry.com" + link.get('href')
         all_links.add(link)
-        # print(linkText)
+        print(linkText)
 
 navbarSupportedContent = soup.find(id='navbarSupportedContent')
 
